@@ -12,7 +12,7 @@ class App extends Component {
       <Router>
         <div className="container">
           <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <Link to={'/'} className="navbar-brand">React CRUD</Link>
+            <Link to={'/'} className="navbar-brand">Recan</Link>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
               <li className="nav-item">
@@ -26,8 +26,7 @@ class App extends Component {
                 </li>
               </ul>
             </div>
-          </nav> <br/>
-          <h2>Welcome to React CRUD</h2> <br/>
+          </nav>
           <Switch>
               <Route exact path='/create' component={ Create } />
               <Route path='/edit/:id' component={ Edit } />
